@@ -1,6 +1,6 @@
 <?php
 $title = "Charts - SB Admin";
-require_once 'layout/page_header.php';
+require_once 'layout/header.php';
 ?>
 <main>
     <div class="container-fluid px-4">
@@ -50,5 +50,5 @@ require_once 'layout/page_header.php';
     </div>
 </main>
 <?php
-require_once 'layout/page_footer.php';
+require_once 'layout/footer.php';
 ?>
