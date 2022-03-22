@@ -108,7 +108,7 @@ if (isset($_POST['tombol'])) {
       </div>
     </div>
 
-    <div class="container-fluid">
+    <div>
       <hr>
       <div class="row mx-1">
         <span>Nim: <?= $mahasiswa->nim; ?> </span>
@@ -117,7 +117,15 @@ if (isset($_POST['tombol'])) {
         <span>Hasil Ujian: <?= $mahasiswa->hasil(); ?></span>
         <span>Grade: <?= $mahasiswa->grade(); ?> </span>
       </div>
+      <hr>
     </div>
+    <footer style="position:relative;" class="row mx-1">
+      <span style="font-weight: bold;font-size:25px">Lab Pemograman Web Lanjutan</span><br>
+      <span>Dosen: Sirojul Munir S.SI,M.Kom</span><br>
+      <span>STT-NF-Kampus B</span>
+    </footer>
+
+  </div>
 </body>
 
 </html>
