@@ -38,9 +38,9 @@ class Minuman extends Dispenser
   {
     echo '<h3>'. 'Selamat Datang di Toko ABC '.'</h3>';
     echo '<hr>';
+    echo 'Nama Minuman : ' . $this->namaMinuman . "<br>";
     echo 'Uang Saat ini : ' . $this->uang . "<br>";
     echo 'kapasistas (volume) Dispenser : ' . $this->volume . 'ml' . "<br>";
-    echo 'Nama Minuman : ' . $this->namaMinuman . "<br>";
     echo 'Harga Bayar Segelas Minuman : ' . $this->hargaSegelas . "<br>";
     echo 'Volume Dispenser setelah dibeli : ' . $this->volumeSetelahDibeli() . 'ml' . "<br>";
     echo 'Sisa uang: ' . $this->transaksi($this->uang);
