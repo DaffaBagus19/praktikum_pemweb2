@@ -36,7 +36,8 @@ class Minuman extends Dispenser
 
   function cetak()
   {
-
+    echo '<h3>'. 'Selamat Datang di Toko ABC '.'</h3>';
+    echo '<hr>';
     echo 'Uang Saat ini : ' . $this->uang . "<br>";
     echo 'kapasistas (volume) Dispenser : ' . $this->volume . 'ml' . "<br>";
     echo 'Nama Minuman : ' . $this->namaMinuman . "<br>";
