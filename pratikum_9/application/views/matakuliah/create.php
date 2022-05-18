@@ -18,11 +18,11 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Form Mahasiswa</h1>
+            <h1>Form Matakuliah</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="/praktikum_pemweb2/pratikum_9/">Home</a></li>
               <li class="breadcrumb-item active">Form Mahasiswa</li>
             </ol>
           </div>
@@ -50,7 +50,7 @@
         <div class="card-body">
         <?php echo form_open('matakuliah/create');?>
   <div class="form-group row">
-    <label for="nama" class="col-4 col-form-label">Nama Matakuliah</label> 
+    <label for="nama" class="col-4 col-form-label">Nama Matakuliah</label>
     <div class="col-8">
       <select id="nama" name="nama" class="custom-select">
          <option value="">---Pilih Matakuliah---</option>
@@ -66,7 +66,7 @@
     </div>
   </div>
   <div class="form-group row">
-    <label for="sks" class="col-4 col-form-label">SKS</label> 
+    <label for="sks" class="col-4 col-form-label">SKS</label>
     <div class="col-8">
       <select id="sks" name="sks" class="custom-select">
         <option value="">---Pilih SKS Matakuliah---</option>
@@ -78,7 +78,7 @@
     </div>
   </div>
   <div class="form-group row">
-    <label for="kode" class="col-4 col-form-label">Kode</label> 
+    <label for="kode" class="col-4 col-form-label">Kode</label>
     <div class="col-8">
       <select id="kode" name="kode" class="custom-select">
         <option value="">---Pilih sesuai dengan Matakuliah yang dipilih---</option>
@@ -92,7 +92,7 @@
         <option value="KE">Komunikasi Efektif</option>
       </select>
     </div>
-  </div> 
+  </div>
   <div class="form-group row">
     <div class="offset-4 col-8">
       <button name="submit" type="submit" class="btn btn-primary">Submit</button>

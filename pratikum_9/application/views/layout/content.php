@@ -37,9 +37,6 @@
         <div class="card-body">
             <h5>Silahkan klik link <a href="<?php echo base_url("index.php/mahasiswa/index")?>">Form Mahasiswa</a> Untuk Menuju tugas Form Mahasiswa</h5>
             <br>
-            <h5>Silahkan klik link <a href="<?php echo base_url("index.php/dosen/index")?>">Form Dosen</a> Untuk Menuju tugas Form Dosen</h5>
-            <br>
-            <h5>Silahkan klik link <a href="<?php echo base_url("index.php/matakuliah/create")?>">Form Matakuliah</a> Untuk Menuju tugas Form Matakuliah</h5>
         </div>
         <!-- /.card-body -->
         <div class="card-footer">

@@ -23,7 +23,16 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="../../index3.html" class="nav-link">Home</a>
+        <a href="/praktikum_pemweb2/pratikum_9/" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="<?php echo base_url("index.php/mahasiswa/index")?>" class="nav-link">Mahasiswa</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="<?php echo base_url("index.php/dosen/index")?>" class="nav-link">Dosen</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="<?php echo base_url("index.php/matakuliah/create")?>" class="nav-link">Matakuliah</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
         <a href="#" class="nav-link">Contact</a>

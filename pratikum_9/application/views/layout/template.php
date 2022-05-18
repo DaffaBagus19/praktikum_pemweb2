@@ -6,7 +6,7 @@
   <title>AdminLTE 3 | Blank Page</title>
 
   <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Font Awesome -->
   <link rel="stylesheet" href="<?php echo base_url('plugins/fontawesome-free/css/all.min.css')?>">
   <!-- Theme style -->
@@ -23,7 +23,16 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="../../index3.html" class="nav-link">Home</a>
+        <a href="/praktikum_pemweb2/pratikum_9/" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="<?php echo base_url("index.php/mahasiswa/index")?>" class="nav-link">Mahasiswa</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="<?php echo base_url("index.php/dosen/index")?>" class="nav-link">Dosen</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="<?php echo base_url("index.php/matakuliah/create")?>" class="nav-link">Matakuliah</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
         <a href="#" class="nav-link">Contact</a>
@@ -154,7 +163,7 @@
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
-  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="../../index3.html" class="brand-link">
       <img src="<?php echo base_url('dist/img/AdminLTELogo.png')?>" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
@@ -166,10 +175,10 @@
       <!-- Sidebar user (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="<?php echo base_url('dist/img/user2-160x160.jpg')?>" class="img-circle elevation-2" alt="User Image">
+          <img src="<?php echo base_url('dist/img/logo.jpg')?>" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block">Daffa Bagus Radityo</a>
         </div>
       </div>
 
@@ -835,7 +844,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Blank Page</h1>
+            <h1>Home</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -865,7 +874,7 @@
           </div>
         </div>
         <div class="card-body">
-          Start creating your amazing application!
+          Klik Navbar yang ada di atas!
         </div>
         <!-- /.card-body -->
         <div class="card-footer">
@@ -882,9 +891,9 @@
 
   <footer class="main-footer">
     <div class="float-right d-none d-sm-block">
-      <b>Version</b> 3.1.0
+
     </div>
-    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+    <strong>Created by  &copy; 2014-2021 <a href="http://nurulfikri.ac.id">Pusinfo NF &copy;2017</a>.</strong>
   </footer>
 
   <!-- Control Sidebar -->

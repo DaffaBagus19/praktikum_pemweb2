@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</head>
+</head> -->
 <body>
     <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -22,7 +22,7 @@
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="/praktikum_pemweb2/pratikum_9/">Home</a></li>
               <li class="breadcrumb-item active">Form Mahasiswa</li>
             </ol>
           </div>
@@ -192,5 +192,3 @@
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-</body>
-</html>
